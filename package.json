@@ -1,0 +1,24 @@
+{
+  "name": "steamcommunity-mobile-confirmations",
+  "version": "1.0.0",
+  "description": "Allows you to automate Steamcommunity mobile confirmations in Node.js",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "steam",
+    "steamcommunity",
+    "steam guard",
+    "steam mobile confirmations"
+  ],
+  "author": "Ivan Galetsky",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.67.0"
+  },
+  "homepage": "https://github.com/GaletskyIvan/steamcommunity-mobile-confirmations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaletskyIvan/steamcommunity-mobile-confirmations.git"
+  }
+}
