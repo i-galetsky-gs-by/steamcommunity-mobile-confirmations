@@ -1,6 +1,6 @@
 {
   "name": "steamcommunity-mobile-confirmations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows you to automate Steamcommunity mobile confirmations in Node.js",
   "main": "index.js",
   "scripts": {},
