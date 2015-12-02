@@ -74,8 +74,6 @@ SteamcommunityMobileConfirmations.prototype._sendConfirmationAjax = function (co
 	                  this._generateConfirmationQueryParams(op) +
 	                  '&cid=' + confirmation.id + '&ck=' + confirmation.key;
 
-	console.log(endpoint + queryString);
-
 	this._request.get({
 		uri: endpoint + queryString,
 	}, (function(error, response, body)
