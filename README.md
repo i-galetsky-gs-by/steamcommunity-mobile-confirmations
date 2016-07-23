@@ -28,14 +28,14 @@ steamcommunityMobileConfirmations.FetchConfirmations((function (err, confirmatio
 	{
 		return;
 	}
-	this.steamcommunityMobileConfirmations.AcceptConfirmation(confirmations[0], (function (err, result)
+	this.steamcommunityMobileConfirmations.AcceptConfirmation(confirmations[0], (function (err, result, confirmation)
 	{
 		if (err)
 		{
 			console.log(err);
 			return;
 		}
-		console.log('steamcommunityMobileConfirmations.AcceptConfirmation result: ' + result);
+		console.log('steamcommunityMobileConfirmations.AcceptConfirmation for trade #' + confirmation.id + ' result: ' + result);
 	}).bind(this));
 }).bind(this));
 ```
