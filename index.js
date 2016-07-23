@@ -89,7 +89,7 @@ SteamcommunityMobileConfirmations.prototype._sendConfirmationAjax = function (co
 		try
 		{
 			var result = JSON.parse(body);
-			callback(null, result.success);
+			callback(null, result.success, confirmation);
 		}
 		catch (e)
 		{
