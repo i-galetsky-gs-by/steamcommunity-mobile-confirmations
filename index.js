@@ -48,6 +48,7 @@ SteamcommunityMobileConfirmations.prototype.FetchConfirmations = function (callb
 			confirmations.push({
 				id:           $confirmation.data('confid'),
 				key:          $confirmation.data('key'),
+				offerId:      $confirmation.data('creator');
 				descriptions: descriptions,
 				cancel:       $confirmation.data('cancel'),
 				accept:       $confirmation.data('accept'),
