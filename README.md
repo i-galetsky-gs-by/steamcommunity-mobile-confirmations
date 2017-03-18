@@ -28,7 +28,7 @@ steamcommunityMobileConfirmations.FetchConfirmations((function (err, confirmatio
 	{
 		return;
 	}
-	this.steamcommunityMobileConfirmations.AcceptConfirmation(confirmations[0], (function (err, result)
+	steamcommunityMobileConfirmations.AcceptConfirmation(confirmations[0], (function (err, result)
 	{
 		if (err)
 		{
